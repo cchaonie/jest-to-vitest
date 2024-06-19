@@ -1,0 +1,22 @@
+# Don't check auto-generated stuff into git
+coverage
+build
+dist
+node_modules
+stats.json
+lerna-debug.log
+assets
+!src/themes/**/assets
+
+# Cruft
+bundle.js
+.DS_Store
+npm-debug.log
+.idea
+.playroom
+.storybook
+.vscode
+
+# Webpack loaders
+.cache-loader
+.cache

@@ -1,0 +1,17 @@
+{
+  "name": "jest-to-vitest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node lib/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^11.2.0",
+    "readline-sync": "^1.4.10",
+    "simple-git": "^3.25.0"
+  }
+}
