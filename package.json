@@ -1,12 +1,21 @@
 {
   "name": "jest-to-vitest",
   "version": "1.0.0",
-  "description": "",
+  "description": "A tool to convert jest tests to vitest tests",
   "main": "index.js",
+  "bin": "bin/index.js",
+  "type": "module",
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "scripts": {
     "start": "node lib/index.js"
   },
-  "keywords": [],
+  "keywords": [
+    "jest",
+    "vitest",
+    "transform"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
